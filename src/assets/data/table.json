@@ -1,0 +1,66 @@
+[
+    {
+        "num_table": 1,
+        "emplacement": "terrasse" ,
+        "is_reserved": true,
+        "nbr_places": 4
+      
+    },
+    {
+        "num_table": 2 ,
+        "emplacement": "terrasse" ,
+        "is_reserved": false,
+        "nbr_places": 4
+      
+    },
+    {
+        "num_table": 3,
+        "emplacement": "terrasse" ,
+        "is_reserved": false,
+        "nbr_places": 4
+      
+    },
+    {
+        "num_table": 4,
+        "emplacement": "terrasse" ,
+        "is_reserved": true,
+        "nbr_places": 6
+      
+    },
+    {
+        "num_table": 5,
+        "emplacement": "terrasse" ,
+        "is_reserved": true,
+        "nbr_places": 6
+      
+    },
+    {
+        "num_table": 6,
+        "emplacement": "terrasse" ,
+        "is_reserved": false,
+        "nbr_places": 4
+      
+    },
+    {
+        "num_table": 7,
+        "emplacement": "terrasse" ,
+        "is_reserved": true,
+        "nbr_places": 6
+      
+    },
+    {
+        "num_table": 8,
+        "emplacement": "terrasse" ,
+        "is_reserved": true,
+        "nbr_places": 4
+      
+    },
+    {
+        "num_table": 9,
+        "emplacement": "terrasse" ,
+        "is_reserved": false,
+        "nbr_places": 2
+      
+    }
+
+]

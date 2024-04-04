@@ -1,0 +1,16 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image" ></div> -->
+    <div mat-card-avatar [ngClass]="table.is_reserved ? 'example-header-image-true' : 'example-header-image-false'">
+    </div>
+    <mat-card-title>{{table.num_table}}</mat-card-title>
+    <mat-card-subtitle>{{table.nbr_places}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image class="img" src="/assets/images/table.jpg" alt="Photo of a table">
+
+  <mat-card-actions>
+    @if(table.is_reserved){<button mat-button>Annuler</button>} @else {<button mat-button>Reserver</button> }
+
+
+  </mat-card-actions>
+</mat-card>

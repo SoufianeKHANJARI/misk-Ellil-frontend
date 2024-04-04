@@ -1,0 +1,34 @@
+<mat-card class="example-card">
+    
+    <mat-card-header>
+        <div mat-card-avatar [ngClass]="employee.status ? 'example-header-image-true': 'example-header-image-false'">
+        </div>
+        <mat-card-actions align="end" >
+            <h3><i> {{employee.slot}}</i></h3>
+        </mat-card-actions>
+        <mat-card-title>{{employee.name}}</mat-card-title>
+        <mat-card-subtitle>{{employee.role}}</mat-card-subtitle>
+    </mat-card-header>
+     
+    @if (employee.gender==="HOMME"){<img mat-card-image src="/assets/images/serveur.png" alt="Photo of a serveur"
+        width="320px" height="320px">}@else
+    {<img mat-card-image src="/assets/images/serveuse.png" alt="Photo of a serveuse" width="320px" height="320px">}
+
+
+    
+<mat-chip-listbox aria-label="Fish selection" (click)="changerStatut()">
+    @if(employee.status){<mat-chip-option color="accent" selected >En Mission</mat-chip-option>} @else {<mat-chip-option color="warn">Hors Mission</mat-chip-option>}
+    
+    
+  </mat-chip-listbox>
+
+    <!-- <mat-card-actions>
+        @if(employee.status){<button mat-button>En Mission</button>} @else {<button mat-button>Hors Misson</button>}
+
+
+    </mat-card-actions> -->
+   
+</mat-card>
+
+
+

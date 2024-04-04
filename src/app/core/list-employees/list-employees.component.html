@@ -1,0 +1,6 @@
+<mat-grid-list cols="3" >
+    @for(emp of employees; track emp.id){
+        <mat-grid-tile><app-employee [employee]="emp"> </app-employee></mat-grid-tile>
+    }
+      </mat-grid-list>
+

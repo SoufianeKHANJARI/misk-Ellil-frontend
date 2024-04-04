@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+    "name": "sofiene",
+    "role": "admin",
+    "phone": "0714251425",
+    "mail": "ks@gmail.com",
+    "status":true,
+    "gender":"HOMME",
+    "slot":"du 08h à 16h"
+
+    },
+
+    {
+        "id": 2,
+    "name": "fahd",
+    "role": "caissier",
+    "phone": "0714251625",
+    "mail": "fahd@gmail.com",
+    "status":true,
+    "gender":"HOMME",
+    "slot":"du 08h à 16h"
+
+    },
+
+    {
+        "id": 3,
+    "name": "Louay",
+    "role": "serveur",
+    "phone": "0714259925",
+    "mail": "Louay@gmail.com",
+    "status":false,
+    "gender":"HOMME",
+    "slot":"du 16h à 00h"
+
+    },
+
+    {
+        "id": 4,
+    "name": "yasmine",
+    "role": "serveur",
+    "phone": "0719991425",
+    "mail": "yasmine@gmail.com",
+    "status":true,
+    "gender":"FEMME",
+    "slot":"du 08h à 16h"
+
+    },
+
+    {
+        "id": 5,
+    "name": "fawez",
+    "role": "serveur",
+    "phone": "071499995",
+    "mail": "fawez@gmail.com",
+    "status":true,
+    "gender":"HOMME",
+    "slot":"du 16h à 00h"
+
+    },
+
+    {
+        "id": 6,
+    "name": "saadia",
+    "role": "caissier",
+    "phone": "076666425",
+    "mail": "saadia@gmail.com",
+    "status":false,
+    "gender":"FEMME",
+    "slot":"du 16h à 00h"
+
+    }
+]
